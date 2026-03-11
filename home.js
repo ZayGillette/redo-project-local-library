@@ -1,10 +1,13 @@
 function getTotalBooksCount(books) {
+    return books.length;
 }
 
 function getTotalAccountsCount(accounts) {
+    return accounts.length;
 }
 
 function getBooksBorrowedCount(books) {
+    return books.filter((book) => book.borrows[0].returned === false).length;
 }
 // Tbis is a helper function that's called by other functions inside this file. You don't have to edit it.
 function _sortObjectByValues(obj) {

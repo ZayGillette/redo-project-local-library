@@ -1,12 +1,16 @@
 function findAccountById(accounts, id) {
 
-  
+    return accounts.find((account) => account.id === id);
+
 }
 
 function sortAccountsByLastName(accounts) {
-  
+  return accounts.sort((accountA, accountB) => 
+    accountA.name.last.toLowerCase() > accountB.name.last.toLowerCase() ? 1 : -1);
+}
 
 function getAccountFullNames(accounts) {
+  return accounts.map((account) => `${account.name.first} ${account.name.last}`);
 }
 // NOTE: YOU DON'T HAVE TO EDIT THE FUNCTIONS BELOW
 function getTotalNumberOfBorrows(account, books) {
