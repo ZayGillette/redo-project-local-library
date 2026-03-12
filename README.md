@@ -126,3 +126,9 @@ xavie@ZayGillette MINGW64 ~/downloads/redo-project-local-library (main)
 $ git commit -m "Completed getBooksBorrowedCount"
 [main 6205572] Completed getBooksBorrowedCount
  1 file changed, 1 insertion(+)
+
+
+ <img width="977" height="705" alt="image" src="https://github.com/user-attachments/assets/fd9b7a1d-e44b-4813-9509-32d8acc68c52" />
+ <img width="840" height="925" alt="image" src="https://github.com/user-attachments/assets/9b98406d-5c73-41f7-bd38-63647b963a87" />
+
+
